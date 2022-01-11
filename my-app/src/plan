@@ -1,0 +1,10 @@
+PLAN
+click me add to count app 
+button that increments every time a user clicks 
+
+App will contain a state that will hold the count 
+need a button component
+write a function in app.js to handles the click 
+
+pass the function down so button knows what function is called (maybe)
+have a way of displaying count 
