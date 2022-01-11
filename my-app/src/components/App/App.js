@@ -1,6 +1,6 @@
 
 import {useState} from "react";
-
+import Button from "../buttons";
 import './App.css';
 
 
@@ -13,7 +13,7 @@ function App() {
   
   return (
       <div>
-          <button onClick= {handleClick}>Click Me</button>
+          <Button handleClick ={handleClick}/>
           <p>Count: {count}</p>
       </div>
   );
